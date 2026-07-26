@@ -32,9 +32,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className="w-full py-4 px-8 sm:px-16 flex items-center justify-between z-20 text-sm lowercase tracking-wider">
+    <header className="sticky top-0 w-full py-4 px-8 sm:px-16 flex items-center justify-between z-50 text-sm lowercase tracking-wider bg-black">
       {/* Left Navigation Links */}
-      <nav className="flex items-center gap-8 sm:gap-12 flex-1 justify-start text-3xl">
+      <nav className="flex items-center gap-8 sm:gap-20 flex-1 justify-start text-3xl font-serif">
         {LEFT_LINKS.map(renderLink)}
       </nav>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       {/* Right Navigation Links */}
-      <nav className="flex items-center gap-8 sm:gap-12 flex-1 justify-end text-3xl">
+      <nav className="flex items-center gap-8 sm:gap-20 flex-1 justify-end text-3xl font-serif">
         {RIGHT_LINKS.map(renderLink)}
       </nav>
     </header>

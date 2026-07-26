@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 
 export default function Contact() {
   return (
-    <div className="relative min-h-screen w-full bg-[#0a0a0a] text-[#f0e4d1] flex flex-col justify-between overflow-hidden selection:bg-[#fa9764] selection:text-black">
+    <div className="relative min-h-screen w-full bg-[#0a0a0a] text-[#f0e4d1] flex flex-col justify-between selection:bg-[#fa9764] selection:text-black">
       <Navbar />
 
       <main className="flex-1 flex flex-col items-center justify-center text-center px-4 z-10">

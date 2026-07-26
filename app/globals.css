@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
 @font-face {
   font-family: 'Gambarino';
@@ -20,14 +21,14 @@
 
 @layer base {
   :root {
-    --background: #090002;
+    --background: #000000;
     --foreground: #f0e4d1;
     --primary: #fa9764;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: #090002;
+      --background: #000000;
       --foreground: #f0e4d1;
     }
   }

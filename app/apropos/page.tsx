@@ -91,10 +91,10 @@ export default function Apropos() {
         <section className="w-full py-20 px-8 sm:px-16 border-t border-[#f0e4d1]/10">
           <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-between">
             <div className="md:w-1/3">
-              <span className="font-serif italic text-sm tracking-widest text-[#fa9764] mb-2 block lowercase">
+              <span className="font-serif italic text-sm tracking-widest text-[#f0e4d1] mb-2 block lowercase">
                 les origines
               </span>
-              <h2 className="text-3xl sm:text-4xl font-normal uppercase tracking-wider text-[#f0e4d1]">
+              <h2 className="text-3xl sm:text-4xl font-normal uppercase tracking-wider text-[#fa9764]">
                 Intérêts & Univers
               </h2>
             </div>
@@ -113,10 +113,10 @@ export default function Apropos() {
         <section className="w-full py-20 px-8 sm:px-16 border-t border-[#f0e4d1]/10">
           <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-between">
             <div className="md:w-1/3">
-              <span className="font-serif italic text-sm tracking-widest text-[#fa9764] mb-2 block lowercase">
+              <span className="font-serif italic text-sm tracking-widest text-[#f0e4d1] mb-2 block lowercase">
                 parcours professionnel
               </span>
-              <h2 className="text-3xl sm:text-4xl font-normal uppercase tracking-wider text-[#f0e4d1]">
+              <h2 className="text-3xl sm:text-4xl font-normal uppercase tracking-wider text-[#fa9764]">
                 Expérience & Savoir-faire
               </h2>
             </div>

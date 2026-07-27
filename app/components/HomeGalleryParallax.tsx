@@ -18,7 +18,7 @@ interface GalleryItem {
 const ITEMS: GalleryItem[] = [
   {
     id: 1,
-    src: "/images/galerie/3617035372260771681_3616962877189256485.jpg",
+    src: "/images/galerie/94.jpg",
     depth: "bg",
     aspect: "aspect-[3/4]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -26,7 +26,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 2,
-    src: "/images/galerie/3646915362951454325_3646915342600687415.jpg",
+    src: "/images/galerie/11.jpg",
     depth: "fg",
     aspect: "aspect-square",
     sizeClass: "col-span-1 md:col-span-5",
@@ -34,7 +34,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 3,
-    src: "/images/galerie/3680073694520194588_3680073682440524551.jpg",
+    src: "/images/galerie/10.jpg",
     depth: "mid",
     aspect: "aspect-[2/3]",
     sizeClass: "col-span-1 md:col-span-3",
@@ -42,7 +42,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 4,
-    src: "/images/galerie/3686776730702755968_3686776713036390855.jpg",
+    src: "/images/galerie/53.jpg",
     depth: "fg",
     aspect: "aspect-[4/3]",
     sizeClass: "col-span-1 md:col-span-6",
@@ -50,7 +50,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 5,
-    src: "/images/galerie/3696246013157430720_3696246000935183983.jpg",
+    src: "/images/galerie/26.jpg",
     depth: "bg",
     aspect: "aspect-[3/4]",
     sizeClass: "col-span-1 md:col-span-3",
@@ -58,7 +58,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 6,
-    src: "/images/galerie/3696246013157430720_3696246001044102650.jpg",
+    src: "/images/galerie/98.jpg",
     depth: "mid",
     aspect: "aspect-square",
     sizeClass: "col-span-1 md:col-span-3",
@@ -66,7 +66,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 7,
-    src: "/images/galerie/3704174421064462706_3704087335074289067.jpg",
+    src: "/images/galerie/86.jpg",
     depth: "fg",
     aspect: "aspect-[2/3]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -74,7 +74,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 8,
-    src: "/images/galerie/3725917542289316017_3725695068830278939.jpg",
+    src: "/images/galerie/3.jpg",
     depth: "bg",
     aspect: "aspect-[4/5]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -82,7 +82,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 9,
-    src: "/images/galerie/3735351995897750071_3735351974422967123.jpg",
+    src: "/images/galerie/89.jpg",
     depth: "mid",
     aspect: "aspect-[3/4]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -90,7 +90,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 10,
-    src: "/images/galerie/3737514260633418054_3737514235283040184.jpg",
+    src: "/images/galerie/78.jpg",
     depth: "fg",
     aspect: "aspect-square",
     sizeClass: "col-span-1 md:col-span-5",
@@ -98,7 +98,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 11,
-    src: "/images/galerie/3760737241573169498_3760598823493025737.jpg",
+    src: "/images/galerie/0.jpg",
     depth: "bg",
     aspect: "aspect-[2/3]",
     sizeClass: "col-span-1 md:col-span-3",
@@ -106,7 +106,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 12,
-    src: "/images/galerie/3762224379477139821_3762224364729975417.jpg",
+    src: "/images/galerie/100.jpg",
     depth: "mid",
     aspect: "aspect-[4/3]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -114,7 +114,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 13,
-    src: "/images/galerie/3768049555657787378_3768049548292626927.jpg",
+    src: "/images/galerie/66.jpg",
     depth: "fg",
     aspect: "aspect-[3/4]",
     sizeClass: "col-span-1 md:col-span-5",
@@ -122,7 +122,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 14,
-    src: "/images/galerie/3796975767557891623_3796803125206942519.jpg",
+    src: "/images/galerie/42.jpg",
     depth: "mid",
     aspect: "aspect-square",
     sizeClass: "col-span-1 md:col-span-3",
@@ -130,7 +130,7 @@ const ITEMS: GalleryItem[] = [
   },
   {
     id: 15,
-    src: "/images/galerie/3846858404870112301_3846856561725890248.jpg",
+    src: "/images/galerie/69.jpg",
     depth: "bg",
     aspect: "aspect-[2/3]",
     sizeClass: "col-span-1 md:col-span-4",
@@ -187,10 +187,10 @@ export default function HomeGalleryParallax() {
   return (
     <section ref={sectionRef} className="w-full py-32 px-6 sm:px-16 mx-auto z-10 overflow-hidden">
       <div className="flex flex-col items-center mb-24 text-center">
-        <span className="font-serif italic text-sm tracking-widest text-[#fa9764] mb-2 lowercase">
+        <span className="font-serif italic text-sm tracking-widest text-[#f0e4d1] mb-2 lowercase">
           portfolio
         </span>
-        <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#f0e4d1]">
+        <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#fa9764]">
           Galerie de Créations
         </h2>
       </div>

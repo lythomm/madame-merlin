@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navbar from "./components/Navbar";
 import HomeGalleryParallax from "./components/HomeGalleryParallax";
+import ServicesSection from "./components/ServicesSection";
 import TestimonialsMarquee from "./components/TestimonialsMarquee";
 import Link from "next/link";
 
@@ -81,7 +82,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full text-[#f0e4d1] flex flex-col justify-between selection:bg-[#fa9764] selection:text-black">
+    <div className="relative min-h-screen w-full text-[#f0e4d1] block selection:bg-[#fa9764] selection:text-black">
       {/* Header Navigation */}
       <Navbar />
 
@@ -156,14 +157,17 @@ export default function Home() {
       {/* Photo Gallery Section with 3D Depth Parallax */}
       <HomeGalleryParallax />
 
-      {/* Prestations Section (Split Showcase Layout) */}
-      <section className="w-full py-24 px-6 sm:px-16 mx-auto z-10">
+      {/* Services Section with Horizontal Fan Scroll */}
+      <ServicesSection />
+
+      {/* Prestations Section (Split Showcase Layout & Tarifs) */}
+      <section id="prestations" className="w-full py-24 px-6 sm:px-16 mx-auto z-10">
         <div className="flex flex-col items-center mb-16 text-center">
-          <span className="font-serif italic text-sm tracking-widest text-[#fa9764] mb-2 lowercase">
-            services & tarifs
+          <span className="font-serif italic text-sm tracking-widest text-[#f0e4d1] mb-2 lowercase">
+            grille tarifaire
           </span>
-          <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#f0e4d1]">
-            Prestations
+          <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#fa9764]">
+            Prestations & Tarifs
           </h2>
         </div>
 
@@ -222,10 +226,10 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="w-full py-24 mx-auto">
         <div className="flex flex-col items-center mb-12 text-center px-6">
-          <span className="font-serif italic text-sm tracking-widest text-[#fa9764] mb-2 lowercase">
+          <span className="font-serif italic text-sm tracking-widest text-[#f0e4d1] mb-2 lowercase">
             avis & retours
           </span>
-          <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#f0e4d1]">
+          <h2 className="text-3xl sm:text-5xl font-normal uppercase tracking-wider text-[#fa9764]">
             Témoignages
           </h2>
         </div>
